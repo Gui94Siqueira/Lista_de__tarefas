@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -13,9 +13,12 @@
     <form action="#">
         <h1>Lista De Tarefas</h1>
         <label for="tarefa">Insira a tarefa: </label>
-        <input type="text" required placeholder="Insira uma tarefa...">
-        <button onclick="nova_Tarefa">Inserir</button>
+        <input type="text" required placeholder="Insira uma tarefa..." id="novaTarefa">
+        <button onclick="adicionarTarefa()">Inserir</button>
     </form>
+    <ul id="listaTarefas"></ul>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
