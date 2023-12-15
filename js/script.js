@@ -8,8 +8,10 @@ function adicionarTarefa() {
         listaTarefas.innerHTML += `
             <li>
                 <span>${textoTarefa}</span>
-                <button onclick="marcarConcluida(this)">Concluída</button>
-                <button onclick="removerTarefa(this)">Remover</button>
+                <div>
+                    <button onclick="marcarConcluida(this)">Concluída</button>
+                    <button onclick="removerTarefa(this)">Remover</button>
+                </div>
             </li>
         `
         document.getElementById("novaTarefa").value = '';

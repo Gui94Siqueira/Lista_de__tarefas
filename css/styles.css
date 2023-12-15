@@ -39,6 +39,11 @@ button {
     border: none;
     border-radius: 10px;
     color: #fff;
+    transition: all ease 1s;
+}
+
+button:hover {
+    background-color: rgb(44, 189, 44);
 }
 
 
@@ -46,12 +51,17 @@ ul {
     list-style-type: none;
     background-color: #fff;
     min-height: 100px;
-    width: 450px;
+    min-width: 450px;
     border-radius: 20px;
     font-size: medium;
     font-weight: 600;
+    padding: 40px 20px;
 }
 
-li button {
-    
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
